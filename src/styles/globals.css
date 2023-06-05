@@ -1,3 +1,24 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red !important; */
+}
+
+body{
+    background: radial-gradient(circle, #100360, #070037);
+    color: white;
+}
+
+button {
+    padding: .7rem .5rem;
+    border-radius: .5rem;
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

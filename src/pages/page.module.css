@@ -1,0 +1,13 @@
+.mainDiv{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    min-height: 80dvh;
+}
+
+.mainBar{
+    
+}
+
+.sideBar{
+
+}
